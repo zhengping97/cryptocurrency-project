@@ -1,3 +1,20 @@
+# XRP Live Tracker
+The cryptocurrency-app (XRP Live Tracker) is a web application build with reactjs that was design to monitor some of the crypto coins on my watchlist. The crypto coins data were fetched from https://docs.coincap.io/. CoinCap is a useful tool for real-time pricing and market activity for over 1,000 cryptocurrencies and no API key is required. Following are resources used to build the application:
+
+##### 1. Nodejs: https://nodejs.org/
+##### 2. Visual Studio Code: https://code.visualstudio.com/
+##### 3. BootStrap: https://getbootstrap.com/
+##### 4. List of public APIs: https://github.com/public-apis/public-apis
+
+Besides displaying the Crypto data retrieved from the CoinCap API, I used the data of the other coins that currently ranks above XRP which are Bitcoin, Ethereum, Binance Coin, Tether, Solana, Cardano, USD Coin in ranking order as of 21 Dec 2022, to calculate the expected price of XRP if it has the same market cap as these coins. Furthermore, I added in 3 other potential coins, theGraph, Hedera Hashgraph and the Sandbox, and uses the market cap of XRP to calculate their expected price. Disclaimer: The expected prices are calculated based on other crypto coins market cap and their supply, its for observation only.
+
+Screenshots of the XRP Live Tracker application:
+<img width="950" alt="XRPHomePage" src="https://user-images.githubusercontent.com/36413759/146900266-b0f98fe3-3cda-40a5-9316-cba9cba89b25.PNG">
+<img width="950" alt="OtherCoinsPage" src="https://user-images.githubusercontent.com/36413759/146900278-56d122a5-a66b-4e34-a7b9-7faf1578708b.PNG">
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
