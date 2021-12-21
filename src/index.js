@@ -1,12 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import XRPHomePage from './components/xrpHomePage';
+import OtherCoinsPage from './components/OtherCoinsPage';
+import AboutPage from './components/AboutPage';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Routes>
+        <Route exact path="/" element={<XRPHomePage />} />
+        <Route path="/OtherCoins" element={<OtherCoinsPage />} />
+        <Route path="/About" element={<AboutPage />} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
