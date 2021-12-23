@@ -1,4 +1,4 @@
-# XRP Live Tracker
+# XRP Live Tracker https://xrp-live-tracker.vercel.app/
 The cryptocurrency-app (XRP Live Tracker) is a web application build with reactjs that was design to monitor some of the crypto coins on my watchlist. The crypto coins data were fetched from https://docs.coincap.io/. CoinCap is a useful tool for real-time pricing and market activity for over 1,000 cryptocurrencies and no API key is required. Following are resources used to build the application:
 
 ##### 1. Nodejs: https://nodejs.org/
