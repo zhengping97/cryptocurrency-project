@@ -6,7 +6,7 @@ The cryptocurrency-app (XRP Live Tracker) is a web application build with reactj
 ##### 3. BootStrap: https://getbootstrap.com/
 ##### 4. List of public APIs: https://github.com/public-apis/public-apis
 
-Besides displaying the Crypto data retrieved from the CoinCap API, I used the data of the other coins that currently ranks above XRP which are Bitcoin, Ethereum, Binance Coin, Tether, Solana, Cardano, USD Coin in ranking order as of 21 Dec 2022, to calculate the expected price of XRP with the market cap as these coins. Furthermore, I added 3 other potential coins, theGraph, Hedera Hashgraph and the Sandbox, and uses the market cap of XRP to calculate their expected price.
+Besides displaying the Crypto data retrieved from the CoinCap API, I used the data of the other coins that currently ranks above XRP which are Bitcoin, Ethereum, Binance Coin, Tether, Solana, Cardano, USD Coin in ranking order as of 21 Dec 2021, to calculate the expected price of XRP with the market cap as these coins. Furthermore, I added 3 other potential coins, theGraph, Hedera Hashgraph and the Sandbox, and uses the market cap of XRP to calculate their expected price.
 
 Disclaimer: The expected prices are calculated based on other crypto coins market cap and their supply, the website is for observation only and does not involved in giving any professional advice.
 
